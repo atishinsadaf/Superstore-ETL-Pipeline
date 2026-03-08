@@ -1,7 +1,7 @@
 # Superstore Sales ETL Pipeline & Analysis
 
 ## Overview
-An end-to-end data engineering project that builds an ETL pipeline to clean and transform raw retail sales data, loads it into a database, and analyzes it using SQL.
+A data engineering project that builds an ETL pipeline to clean and transform raw retail sales data, loads it into a database, and analyzes it using SQL.
 
 ## Tools & Technologies
 - **Python** — ETL pipeline (pandas, SQLAlchemy, SQLite)
