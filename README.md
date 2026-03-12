@@ -10,8 +10,6 @@ A data engineering project that builds an ETL pipeline to clean and transform ra
 - **Libraries** — pandas, sqlalchemy, sqlite3
             
 ## ETL Pipeline
-The pipeline follows a modular Extract → Transform → Validate → Load structure:
-
 - **Extract** — Loads raw CSV data into a pandas DataFrame
 - **Transform** — Cleans column names, parses dates, fixes data types, removes whitespace, adds calculated columns (days_to_ship, order_month, order_day)
 - **Validate** — Asserts data quality rules before loading (no negative sales, no null dates, row count check)
